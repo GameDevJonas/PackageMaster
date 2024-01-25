@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be94898a-6b10-45f1-8788-d5c742b303f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Packages/BanterForge/ExampleDialogueRunnerScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/BanterForge/ExampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/BanterForge/ExampleDialogueRunnerScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/BanterForge/ExampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/BanterForge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/BanterForge/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Packages/BanterForge" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/84/05eb4f26/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "XThreadsFramesViewSplitterKey": "0.50041425",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,7 +126,7 @@
       <workItem from="1705232662659" duration="30436000" />
       <workItem from="1705419709459" duration="9948000" />
       <workItem from="1705604577723" duration="14518000" />
-      <workItem from="1706200836198" duration="2421000" />
+      <workItem from="1706200836198" duration="2719000" />
     </task>
     <servers />
   </component>

@@ -20,5 +20,6 @@
     "name": "GDPanda",
     "email": "oddenjonas1@gmail.com",
     "url": ""
-  }
+  },
+  "hideInEditor": false
 }
