@@ -31,8 +31,7 @@ namespace GDPanda.BanterForge.Tree.Editor
             this.AddManipulator(new RectangleSelector());
             
             var styleSheet =
-                AssetDatabase.LoadAssetAtPath<StyleSheet>(
-                    "Assets/Editor/UI Builder/DialogueTreeEditor.uss");
+                AssetDatabase.LoadAssetAtPath<StyleSheet>("Packages/gdpanda.banterforge/Editor/UI Builder/DialogueTreeEditor.uss");
             styleSheets.Add(styleSheet);
 
             Undo.undoRedoPerformed += OnUndoRedo;

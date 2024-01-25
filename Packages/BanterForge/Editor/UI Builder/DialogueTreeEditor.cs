@@ -64,7 +64,7 @@ namespace GDPanda.BanterForge.Tree.Editor
 
             var styleSheet =
                 AssetDatabase.LoadAssetAtPath<StyleSheet>(
-                    "Assets/Editor/UI Builder/DialogueTreeEditor.uss");
+                    "Packages/gdpanda.banterforge/Editor/UI Builder/DialogueTreeEditor.uss");
             root.styleSheets.Add(styleSheet);
 
             InitializeWindow();

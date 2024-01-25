@@ -22,7 +22,7 @@ namespace GDPanda.BanterForge.Tree.Editor
         
         private VisualElement _addedIndexLabel;
         
-        public NodeView(Node node) : base("Assets/Editor/UI Builder/NodeView.uxml")
+        public NodeView(Node node) : base("Packages/gdpanda.banterforge/Editor/UI Builder/NodeView.uxml")
         {
             this.node = node;
             this.title = node.name;

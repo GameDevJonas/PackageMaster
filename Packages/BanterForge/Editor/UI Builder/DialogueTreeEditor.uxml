@@ -1,22 +1,20 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
-    <Style src="project://database/Assets/CoolDialogueSystem/Editor/DialogueTreeEditor.uss?fileID=7433441132597879392&amp;guid=2bc32e63b5968b7489d8cdf3db3e5576&amp;type=3#DialogueTreeEditor" />
+    <Style src="project://database/Packages/gdpanda.banterforge/Editor/UI%20Builder/DialogueTreeEditor.uss?fileID=7433441132597879392&amp;guid=2bc32e63b5968b7489d8cdf3db3e5576&amp;type=3#DialogueTreeEditor" />
     <uie:Toolbar>
         <uie:ToolbarMenu tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" text="Assets" />
         <uie:ToolbarSpacer />
         <uie:ToolbarButton text="Debug log tree step" parse-escape-sequences="true" display-tooltip-when-elided="true" />
     </uie:Toolbar>
-    <Panda.Dialogue.Tree.Editor.SplitView fixed-pane-initial-dimension="300">
+    <GDPanda.BanterForge.Tree.Editor.SplitView fixed-pane-initial-dimension="300">
         <ui:VisualElement style="flex-grow: 1;">
             <ui:Label tabindex="-1" text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" name="inspector-label" style="background-color: rgb(32, 32, 32); color: rgb(125, 125, 125);" />
-            <Panda.Dialogue.Tree.Editor.InspectorView style="flex-grow: 1; background-color: rgb(60, 60, 60); margin-left: 0; padding-left: 20px;" />
+            <GDPanda.BanterForge.Tree.Editor.InspectorView style="flex-grow: 1;" />
         </ui:VisualElement>
         <ui:VisualElement style="flex-grow: 1;">
             <ui:Label tabindex="-1" text="Tree View" parse-escape-sequences="true" display-tooltip-when-elided="true" name="treeview-label" style="-unity-text-outline-color: rgba(32, 32, 32, 0); background-color: rgb(32, 32, 32); color: rgb(119, 119, 119);" />
-            <Panda.Dialogue.Tree.Editor.DialogueTreeView focusable="true" style="flex-grow: 1;">
-                <ui:VisualElement name="error-visual" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Textures/Arrow.png?fileID=2800000&amp;guid=5d78b8f4d9f690542980d2929af91b40&amp;type=3#Arrow&apos;); -unity-background-image-tint-color: rgb(255, 61, 61); opacity: 1; align-items: auto; align-self: auto; -unity-background-scale-mode: stretch-to-fill; scale: 0.5 0.5; justify-content: center;">
-                    <ui:Label tabindex="-1" text="No Active Tree" parse-escape-sequences="true" display-tooltip-when-elided="true" style="position: relative; transform-origin: center; translate: 0 0; height: 27px; width: 111px; scale: 2 2; color: rgb(0, 0, 0); align-items: center; justify-content: center; align-self: center; visibility: visible; left: auto; flex-direction: column; -unity-text-align: middle-center;" />
-                </ui:VisualElement>
-            </Panda.Dialogue.Tree.Editor.DialogueTreeView>
+            <GDPanda.BanterForge.Tree.Editor.DialogueTreeView focusable="true" style="flex-grow: 1;">
+                <ui:VisualElement name="error-visual" style="flex-grow: 1; background-image: url(&apos;project://database/Packages/gdpanda.banterforge/Textures/Arrow.png?fileID=2800000&amp;guid=5d78b8f4d9f690542980d2929af91b40&amp;type=3#Arrow&apos;); -unity-background-image-tint-color: rgb(255, 0, 0);" />
+            </GDPanda.BanterForge.Tree.Editor.DialogueTreeView>
         </ui:VisualElement>
-    </Panda.Dialogue.Tree.Editor.SplitView>
+    </GDPanda.BanterForge.Tree.Editor.SplitView>
 </ui:UXML>
