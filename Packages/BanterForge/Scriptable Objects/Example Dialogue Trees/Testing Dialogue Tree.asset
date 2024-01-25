@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5813074689829903739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: 0a40b25f83d12a7448195a79b03aa91c
+  nodeName: Nun yo biz
+  position: {x: 455.47003, y: 409.99997}
+  connectedIndex: 2
+  hasBeenRun: 0
+  child: {fileID: 5093931331432984484}
+  dialogueContent:
+    character: {fileID: 11400000, guid: b217e14a216902c48aa2c11f7f496790, type: 2}
+    dialogueLine: nun yo biz
+    autoNextLine: 0
+--- !u!114 &-4618965690651176042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: 38ba7782adf11084ea2dd8f55734ed34
+  nodeName: Ay
+  position: {x: 342, y: 53.00002}
+  connectedIndex: 0
+  hasBeenRun: 0
+  child: {fileID: 6934526000751662092}
+  dialogueContent:
+    character: {fileID: 11400000, guid: b217e14a216902c48aa2c11f7f496790, type: 2}
+    dialogueLine: ay
+    autoNextLine: 0
+--- !u!114 &-2019414752197076879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: 615f9b6a464ad474da747e114ffb3e76
+  nodeName: Alot
+  position: {x: 298.99985, y: 409.99997}
+  connectedIndex: 1
+  hasBeenRun: 0
+  child: {fileID: 0}
+  dialogueContent:
+    character: {fileID: 11400000, guid: b217e14a216902c48aa2c11f7f496790, type: 2}
+    dialogueLine: alot
+    autoNextLine: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500fbfefcda66eb4c8c7ff929b74b84e, type: 3}
+  m_Name: Testing Dialogue Tree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 5710389530414415498}
+  nodes:
+  - {fileID: 5710389530414415498}
+  - {fileID: 2905383725660574509}
+  - {fileID: -4618965690651176042}
+  - {fileID: 6934526000751662092}
+  - {fileID: 4441931996412298704}
+  - {fileID: 5424827167505137571}
+  - {fileID: -2019414752197076879}
+  - {fileID: -5813074689829903739}
+  - {fileID: 5093931331432984484}
+--- !u!114 &2905383725660574509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: f7a48920c474f094da0934c70733fc93
+  nodeName: Hey
+  position: {x: 342, y: -47.650005}
+  connectedIndex: 0
+  hasBeenRun: 0
+  child: {fileID: -4618965690651176042}
+  dialogueContent:
+    character: {fileID: 11400000, guid: f1e29dca3a1185948b9dcabaa0cc1d45, type: 2}
+    dialogueLine: hey
+    autoNextLine: 0
+--- !u!114 &4441931996412298704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d4e11b011a9fa4f9c344f33f6d85ee, type: 3}
+  m_Name: ChoiceNode
+  m_EditorClassIdentifier: 
+  guid: d00cf867d0a0222499e88a75a12e6098
+  nodeName: Choice 01
+  position: {x: 342, y: 285.19257}
+  connectedIndex: 0
+  hasBeenRun: 0
+  child: {fileID: 0}
+  children:
+  - {fileID: 5424827167505137571}
+  - {fileID: -2019414752197076879}
+  - {fileID: -5813074689829903739}
+--- !u!114 &5093931331432984484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: 2f12e8b617021d04ca40d3b1626d7f9f
+  nodeName: asshole
+  position: {x: 455.00003, y: 540.1501}
+  connectedIndex: 0
+  hasBeenRun: 0
+  child: {fileID: 0}
+  dialogueContent:
+    character: {fileID: 11400000, guid: f1e29dca3a1185948b9dcabaa0cc1d45, type: 2}
+    dialogueLine: asshole
+    autoNextLine: 0
+--- !u!114 &5424827167505137571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: d42b772134894d9468715de68867691a
+  nodeName: Nufn
+  position: {x: 143, y: 410}
+  connectedIndex: 0
+  hasBeenRun: 0
+  child: {fileID: 0}
+  dialogueContent:
+    character: {fileID: 11400000, guid: b217e14a216902c48aa2c11f7f496790, type: 2}
+    dialogueLine: nufn
+    autoNextLine: 0
+--- !u!114 &5710389530414415498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225986f3bab63a345a013f6838de568b, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  guid: 211923b9187207b41aa75e9a486a15aa
+  nodeName: Root
+  position: {x: 342, y: -144.99998}
+  connectedIndex: 0
+  hasBeenRun: 1
+  child: {fileID: 2905383725660574509}
+--- !u!114 &6934526000751662092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013770d639798554098aa9e4afc49663, type: 3}
+  m_Name: DialogueNode
+  m_EditorClassIdentifier: 
+  guid: f25abe0e9bc8e684a9006d497b46ee6b
+  nodeName: was the hap
+  position: {x: 342, y: 165.45251}
+  connectedIndex: 0
+  hasBeenRun: 0
+  child: {fileID: 4441931996412298704}
+  dialogueContent:
+    character: {fileID: 11400000, guid: f1e29dca3a1185948b9dcabaa0cc1d45, type: 2}
+    dialogueLine: was the hap
+    autoNextLine: 0

@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/CoolDialogueSystem/Editor/NodeViewStyle.uss?fileID=7433441132597879392&amp;guid=7ebdaf54f8c1aca419b8675313188635&amp;type=3#NodeViewStyle" />
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+    <ui:VisualElement name="active-border" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: none; border-left-color: rgb(49, 255, 0); border-right-color: rgb(49, 255, 0); border-top-color: rgb(49, 255, 0); border-bottom-color: rgb(49, 255, 0); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px;" />
+    <ui:VisualElement name="node-border" style="width: 259px; max-width: 150px;">
+        <ui:VisualElement name="contents">
+            <ui:VisualElement name="divider" class="horizontal" />
+            <ui:VisualElement name="top">
+                <ui:VisualElement name="input" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; transform-origin: center; max-height: 20px;" />
+                <ui:VisualElement name="divider" picking-mode="Ignore" class="vertical" style="flex-grow: 0; height: 12px; display: flex; color: rgb(56, 56, 56); background-color: rgba(31, 31, 31, 0.4); border-left-color: rgb(46, 46, 46); border-right-color: rgb(46, 46, 46); border-top-color: rgb(46, 46, 46); border-bottom-color: rgb(46, 46, 46); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+                <ui:Label tabindex="-1" text="This is a description" parse-escape-sequences="true" display-tooltip-when-elided="true" name="description" style="display: none; visibility: visible; overflow: visible; -unity-font-style: italic; font-size: 10px;" />
+                <ui:VisualElement name="divider" picking-mode="Ignore" class="vertical" style="flex-grow: 0; height: 6px; display: none;" />
+                <ui:VisualElement name="title" style="flex-wrap: wrap; -unity-text-align: middle-center; align-items: stretch; align-self: stretch; justify-content: flex-end; width: auto; text-overflow: clip;">
+                    <ui:Label name="title-label" text="ChoiceNode" class="unity-text-element unity-label" style="-unity-text-align: upper-center; justify-content: flex-start; align-items: stretch; align-self: stretch; width: auto; font-size: 12px; -unity-font-style: normal; flex-wrap: wrap; height: auto; white-space: normal; margin-right: 10px; margin-left: 10px;" />
+                    <ui:VisualElement name="title-button-container">
+                        <ui:VisualElement name="collapse-button">
+                            <ui:VisualElement name="icon" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="divider" picking-mode="Ignore" class="vertical" style="flex-grow: 0; height: 12px; display: flex; -unity-text-outline-color: rgba(56, 56, 56, 0); color: rgb(56, 56, 56); background-color: rgba(46, 46, 46, 0);" />
+                <ui:VisualElement name="output" style="flex-wrap: wrap; align-self: center; align-items: center; overflow: visible; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; max-height: 20px; background-color: rgb(46, 46, 46);">
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: column; justify-content: space-around; align-items: stretch; align-self: center; flex-wrap: wrap; overflow: visible; visibility: visible; display: flex;">
+                        <ui:Label tabindex="-1" text="no char assigned" parse-escape-sequences="true" display-tooltip-when-elided="true" name="character-label" enable-rich-text="false" style="color: rgba(255, 255, 255, 0.52); display: flex; -unity-text-align: middle-left; -unity-font-style: italic;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
