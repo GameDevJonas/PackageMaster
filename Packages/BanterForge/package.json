@@ -5,9 +5,8 @@
   "description": "Dialogue System",
   "unity": "2022.3",
   "unityRelease": "8f1",
-  "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
+  "documentationUrl": "https://jonasss.notion.site/Banter-Forge-ebefa02e1a234d539446a4d1b9008814?pvs=4",
+  "changelogUrl": "https://jonasss.notion.site/Banter-Forge-Changelog-4ab67faff5104a21b5b6fb452cfd128e?pvs=4",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.7"
   },

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb0275414dd4429c8f3d643461442959, type: 3}
-  m_Name: Fallback Character
+  m_Name: Other NPC Character
   m_EditorClassIdentifier: 
-  CharacterNodeColor: {r: 0, g: 0, b: 0, a: 1}
-  Name: FALLBACK
-  VoiceType: 1
+  CharacterNodeColor: {r: 0, g: 1, b: 0.025779724, a: 1}
+  Name: Other cool guy!
+  VoiceType: 0
   HappyAnimationName: 
   SadAnimationName: 
   SuprisedAnimationNamee: 

@@ -7,7 +7,7 @@ namespace GDPanda.BanterForge
     /// <summary>
     /// Physical representatio
     /// </summary>
-    [CreateAssetMenu(menuName = "Dialogue System/New Character", fileName = "Character", order = 0)]
+    [CreateAssetMenu(menuName = "Banter Forge/New Character", fileName = "Character", order = 0)]
     public class Character : ScriptableObject
     {
         public Color CharacterNodeColor;

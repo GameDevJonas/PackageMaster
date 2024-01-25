@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace GDPanda.BanterForge.Tree
 {
-    [CreateAssetMenu(menuName = "Dialogue System/New Dialogue Tree", fileName = "New Dialogue Tree")]
+    [CreateAssetMenu(menuName = "Banter Forge/New Dialogue Tree", fileName = "New Dialogue Tree")]
     public class DialogueTree : ScriptableObject
     {
         public Node rootNode;

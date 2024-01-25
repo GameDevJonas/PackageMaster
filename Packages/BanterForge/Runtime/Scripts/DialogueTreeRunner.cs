@@ -10,7 +10,7 @@ namespace GDPanda.BanterForge.Tree
     {
         [SerializeField]
         private DialogueTree tree;
-
+        
         private bool _lookingForChoice;
 
         /*private void Start()
@@ -40,7 +40,7 @@ namespace GDPanda.BanterForge.Tree
             var node = tree.Progress();
             if (!node)
             {
-                Debug.Log($"<color=#FFC43D><b>Arrived at null node, resetting tree</b></color>");
+                DialogueManager.Log($"<color=#FFC43D><b>Arrived at null node, resetting tree</b></color>");
                 _lookingForChoice = false;
                 tree.ResetNodes();
                 return null;
@@ -49,8 +49,8 @@ namespace GDPanda.BanterForge.Tree
             var dialogueNode = node as DialogueNode;
             if (dialogueNode != null)
             {
-                Debug.Log($"<i>Node is dialogue node; {dialogueNode.nodeName}</i>");
-                Debug.Log(
+                DialogueManager.Log($"<i>Node is dialogue node; {dialogueNode.nodeName}</i>");
+                DialogueManager.Log(
                     $"<color=#EF476F>Dialogue: \"{dialogueNode.dialogueContent.character?.Name}: {dialogueNode.dialogueContent.dialogueLine}\"</color>");
                 _lookingForChoice = false;
                 return dialogueNode;
@@ -72,13 +72,13 @@ namespace GDPanda.BanterForge.Tree
                 else
                 {
                     _lookingForChoice = true;
-                    Debug.Log($"<b>Node is choice node, awaiting response; {choiceNode.nodeName}</b>");
+                    DialogueManager.Log($"<b>Node is choice node, awaiting response; {choiceNode.nodeName}</b>");
                 }
 
                 return choiceNode;
             }
 
-            Debug.Log($"<color=red>Node is not dialogue or choice?; {node.nodeName}</color>");
+            DialogueManager.Log($"<color=red>Node is not dialogue or choice?; {node.nodeName}</color>");
             return node.Progress();
         }
 
@@ -86,14 +86,14 @@ namespace GDPanda.BanterForge.Tree
         {
             if (!_lookingForChoice)
             {
-                Debug.Log("<color=red>Tried calling OnPlayerMadeDecision without declaring that runner is looking for decision</color>");
+                DialogueManager.Log("<color=red>Tried calling OnPlayerMadeDecision without declaring that runner is looking for decision</color>");
                 return;
             }
 
             var choiceNode = tree.currentNode as ChoiceNode;
             if (choiceNode == null)
             {
-                Debug.Log("<color=red>Tried calling OnPlayerMadeDecision when trees active node is not choice node</color>");
+                DialogueManager.Log("<color=red>Tried calling OnPlayerMadeDecision when trees active node is not choice node</color>");
                 return;
             }
 

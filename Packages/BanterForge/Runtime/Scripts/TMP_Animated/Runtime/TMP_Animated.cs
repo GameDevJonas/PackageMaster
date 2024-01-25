@@ -97,7 +97,7 @@ namespace TMPro
                     }
                     else
                     {
-                        var textToAdd = subTexts[i].ToLower();
+                        var textToAdd = subTexts[i]/*.ToLower()*/;
                         displayText += "<" + textToAdd + ">";
                     }
                 }

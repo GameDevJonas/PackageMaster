@@ -13,7 +13,7 @@ namespace GDPanda.Data
                 Destroy(gameObject);
                 return;
             }
-            Debug.Log(gameObject, gameObject);
+            // Debug.Log(gameObject, gameObject);
             _instance = this.GetComponent<T>();
         }
 

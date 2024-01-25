@@ -112,10 +112,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2567548968175211554}
   - component: {fileID: 2951756046282396266}
+  - component: {fileID: 1604651216982500955}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 0ba757742485b074c9d08771161cefb5, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -151,6 +152,19 @@ MonoBehaviour:
   CanContinue: 0
   _dialoguePanelPrefab: {fileID: 6267877452003962886, guid: edc356c18a2261e49930afa5d9b26a37, type: 3}
   _fallbackCharacter: {fileID: 11400000, guid: f1e29dca3a1185948b9dcabaa0cc1d45, type: 2}
+  _debugEnabled: 0
+--- !u!114 &1604651216982500955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839399083964797827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df018514e485d943ae215f0b507ee47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4167301403264478788
 GameObject:
   m_ObjectHideFlags: 0

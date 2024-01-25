@@ -26,7 +26,7 @@ namespace GDPanda.BanterForge.Tree.Editor
         private VisualTreeAsset m_VisualTreeAsset = default;
 
 
-        [MenuItem("Dialogue System/Editor ...")]
+        [MenuItem("Banter Forge/Editor ...")]
         public static void OpenWindow()
         {
             DialogueTreeEditor wnd = GetWindow<DialogueTreeEditor>();

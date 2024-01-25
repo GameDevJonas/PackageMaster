@@ -8,11 +8,9 @@ namespace GDPanda.BanterForge
 {
     public class DialoguePanel : MonoBehaviour
     {
+        [Header("Variables")]
         [SerializeField]
         private float _timeToDestroy;
-        
-        //Parent transform to spawn dialogue choices
-        public Transform ChoicesParent;
 
         //Prefab for choice buttons
         public DialogueChoiceButton ChoiceButtonPrefab;
@@ -24,6 +22,10 @@ namespace GDPanda.BanterForge
         //Default dialogue text color
         [SerializeField]
         private Color _defaultColor;
+        
+        [Header("References")]
+        //Parent transform to spawn dialogue choices
+        public Transform ChoicesParent;
         
         //TMP component for name text
         [SerializeField]

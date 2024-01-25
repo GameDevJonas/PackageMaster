@@ -30,7 +30,7 @@ namespace GDPanda.BanterForge.Tree
                 return this;
             }
 
-            Debug.Log($"<color=#1B9AAA><b>Choice node progressing with choice {playerDecisionIndex}</b></color>");
+            DialogueManager.Log($"<color=#1B9AAA><b>Choice node progressing with choice {playerDecisionIndex}</b></color>");
             
             var child = children.FirstOrDefault(x => playerDecisionIndex == x.connectedIndex);
             return child;
@@ -43,12 +43,12 @@ namespace GDPanda.BanterForge.Tree
             Node matchingChildIndex = null;
             if (children.Any(childNode => index == childNode.connectedIndex))
             {
-                Debug.Log($"<color=#1B9AAA><i>Choice node has gotten info on player choice with index {index}</i></color>");
+                DialogueManager.Log($"<color=#1B9AAA><i>Choice node has gotten info on player choice with index {index}</i></color>");
                 playerDecisionIndex = index;
                 return;
             }
             
-            Debug.Log($"<color=red>No child assigned at index:{index} on choice node; {nodeName}</color>");
+            DialogueManager.Log($"<color=red>No child assigned at index:{index} on choice node; {nodeName}</color>");
         }
         
         protected override void OnCleanup()

@@ -7,6 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using Object = UnityEngine.Object;
 
 namespace GDPanda.BanterForge
 {
@@ -49,6 +50,46 @@ namespace GDPanda.BanterForge
         
         public static Action<Emotion> OnEmotionChange;
 
+        #endregion
+
+        #region Debug
+
+        [SerializeField]
+        private bool _debugEnabled = false;
+
+        public static void Log(string log, Object context = null)
+        {
+            var instance = DialogueManager._instance;
+            if(instance && !instance._debugEnabled)
+                return;
+            
+            context ??= instance;
+            
+            Debug.Log(log, context);
+        }
+
+        public static void LogError(string log, Object context = null)
+        {
+            var instance = DialogueManager._instance;
+            if(!instance._debugEnabled)
+                return;
+            
+            context ??= instance;
+            
+            Debug.LogError(log, context);
+        }
+        
+        public static void LogWarning(string log, Object context = null)
+        {
+            var instance = DialogueManager._instance;
+            if(!instance._debugEnabled)
+                return;
+            
+            context ??= instance;
+            
+            Debug.LogWarning(log, context);
+        }
+        
         #endregion
         
         private void Start()
@@ -318,7 +359,7 @@ namespace GDPanda.BanterForge
 
         private void OnEndOfDialogueLineCallback()
         {
-            Debug.Log("Reached end of dialogue line");
+            DialogueManager.Log("Reached end of dialogue line");
             
             _canSkip = false;
             if (_autoNextLine)
