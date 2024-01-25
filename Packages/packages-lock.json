@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.gdpanda.com.gdpanda.banterforge": {
-      "version": "file:BanterForge",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.textmeshpro": "3.0.7"
-      }
-    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,
@@ -225,6 +217,14 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "gdpanda.banterforge": {
+      "version": "file:BanterForge",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.7"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

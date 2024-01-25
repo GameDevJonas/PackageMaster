@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be94898a-6b10-45f1-8788-d5c742b303f2" name="Changes" comment="" />
+    <list default="true" id="be94898a-6b10-45f1-8788-d5c742b303f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Packages/BanterForge/ExampleDialogueRunnerScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/BanterForge/ExampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/BanterForge/ExampleDialogueRunnerScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/BanterForge/ExampleScene.unity.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

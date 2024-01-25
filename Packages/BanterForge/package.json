@@ -1,6 +1,6 @@
 {
-  "name": "com.gdpanda.com.gdpanda.banterforge",
-  "version": "1.0.0",
+  "name": "gdpanda.banterforge",
+  "version": "1.0.1",
   "displayName": "BanterForge",
   "description": "Dialogue System",
   "unity": "2022.3",
