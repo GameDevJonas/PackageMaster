@@ -1,0 +1,3 @@
+[submodule "Packages/Banter"]
+	path = Packages/Banter
+	url = https://github.com/GameDevJonas/BanterForge
