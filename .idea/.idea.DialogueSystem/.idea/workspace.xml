@@ -20,7 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/Character.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/DialogueActions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/DialogueAudio.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/DialogueManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/DialogueManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/DialoguePanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/DialogueTree.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/BanterForge/Runtime/Scripts/Singleton.cs" root0="SKIP_HIGHLIGHTING" />
@@ -119,6 +119,7 @@
       <workItem from="1726079299464" duration="6000" />
       <workItem from="1726162792066" duration="1051000" />
       <workItem from="1726164046785" duration="1675000" />
+      <workItem from="1726172420589" duration="870000" />
     </task>
     <servers />
   </component>
